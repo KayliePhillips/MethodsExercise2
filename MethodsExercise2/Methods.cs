@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -65,6 +66,18 @@ namespace MethodsExercise2
 
             return totalAdd;
         }
+
+        public static int Sum(params int[] parameters)
+        {
+            int sum = 0;
+            for (int i= 0; i <parameters.Length; i++)
+            {
+                sum += parameters[i];
+            }
+
+            return sum;
+        }
+
     }
 
 

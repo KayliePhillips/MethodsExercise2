@@ -35,10 +35,10 @@ Console.WriteLine("---------------------- Step 8 Bonus ----------------------");
 //Add() methhod that takes as many arguements as needed
 
 //a. Sum(2,4) would return 6
-Console.WriteLine(Methods.BonusParams(2,4));
+Console.WriteLine(Methods.Sum(2,4));
 
 //a. Sum(2,4,6) would return 12
-Console.WriteLine(Methods.BonusParams(2,4,6));
+Console.WriteLine(Methods.Sum(2,4,6));
 
 //a. Sum(1,1,1,1,1) would return 5
-Console.WriteLine(Methods.BonusParams(1,1,1,1,1));
+Console.WriteLine(Methods.Sum(1,1,1,1,1));
