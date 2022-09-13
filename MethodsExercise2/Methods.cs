@@ -20,7 +20,7 @@ namespace MethodsExercise2
             var animal = Console.ReadLine();
 
             Console.WriteLine("What is your favorite number>");
-            var favoriteNumber = Console.ReadLine();
+            int favoriteNumber = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine($"Hi {name}, nice to meet you.  I just learned that your favorite color is {color}, your " +
                 $"favorite animal is a {animal} and your favorite number is {favoriteNumber}.  " +

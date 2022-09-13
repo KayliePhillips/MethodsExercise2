@@ -5,7 +5,7 @@ using System;
 using System.ComponentModel;
 
 Console.WriteLine("---------------------Step 5c ----------------------");
-//Methods.Exercise1();
+Methods.Exercise1();
 
 
 Console.WriteLine("---------------------- Step 6 ----------------------");
@@ -31,7 +31,7 @@ Console.WriteLine(Methods.Modulus(20, 5));
 
 
 Console.WriteLine("---------------------- Step 8 Bonus ----------------------");
-//Change the functions to us the params keyword to support a range of arguements.
+//Change the functions to use the params keyword to support a range of arguements.
 //Add() methhod that takes as many arguements as needed
 
 //a. Sum(2,4) would return 6
